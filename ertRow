@@ -1,0 +1,45 @@
+[35mfiles/en-us/_redirects.txt[m[36m:[m[32m2047[m[36m:[m/en-US/docs/DOM/table.[1;31minsertRow[m	/en-US/docs/Web/API/HTMLTableElement/[1;31minsertRow[m
+[35mfiles/en-us/_redirects.txt[m[36m:[m[32m2513[m[36m:[m/en-US/docs/DOM:table.[1;31minsertRow[m	/en-US/docs/Web/API/HTMLTableElement/[1;31minsertRow[m
+[35mfiles/en-us/_redirects.txt[m[36m:[m[32m3232[m[36m:[m/en-US/docs/Document_Object_Model_(DOM)/table.[1;31minsertRow[m	/en-US/docs/Web/API/HTMLTableElement/[1;31minsertRow[m
+[35mfiles/en-us/_redirects.txt[m[36m:[m[32m9130[m[36m:[m/en-US/docs/Web/API/HTMLTableElement.[1;31minsertRow[m	/en-US/docs/Web/API/HTMLTableElement/[1;31minsertRow[m
+[35mfiles/en-us/_redirects.txt[m[36m:[m[32m11412[m[36m:[m/en-US/docs/Web/API/table.[1;31minsertRow[m	/en-US/docs/Web/API/HTMLTableElement/[1;31minsertRow[m
+[35mfiles/en-us/_redirects.txt[m[36m:[m[32m17372[m[36m:[m/en-US/docs/[1;31minsertRow[m	/en-US/docs/Web/API/HTMLTableElement/[1;31minsertRow[m
+[35mfiles/en-us/_wikihistory.json[m[36m:[m[32m40460[m[36m:[m  "Web/API/HTMLTableElement/[1;31minsertRow[m": {
+[35mfiles/en-us/mozilla/firefox/releases/20/index.md[m[36m:[m[32m45[m[36m:[m- The index argument of the {{domxref("HTMLTableRowElement.insertCell()")}} and {{domxref("HTMLTableElement.[1;31minsertRow[m()")}} methods has been made optional as per HTML specification.
+[35mfiles/en-us/web/api/css_object_model/css_value_serialization/index.md[m[36m:[m[32m74[m[36m:[mconst head = table.createTHead().[1;31minsertRow[m();
+[35mfiles/en-us/web/api/document_object_model/index.md[m[36m:[m[32m177[m[36m:[mMany objects implement several different interfaces. The table object, for example, implements a specialized {{domxref("HTMLTableElement")}} interface, which includes such methods as `createCaption` and `[1;31minsertRow[m`. But since it's also an HTML element, `table` implements the `Element` interface described in the DOM {{domxref("Element")}} Reference chapter. And finally, since an HTML element is also, as far as the DOM is concerned, a node in the tree of nodes that make up the object model for an HTML or XML page, the table object also implements the more basic `Node` interface, from which `Element` derives.
+[35mfiles/en-us/web/api/document_object_model/index.md[m[36m:[m[32m600[m[36m:[m  let row = thead.[1;31minsertRow[m(-1);
+[35mfiles/en-us/web/api/document_object_model/index.md[m[36m:[m[32m612[m[36m:[m    row = tbody.[1;31minsertRow[m(-1);
+[35mfiles/en-us/web/api/htmltableelement/index.md[m[36m:[m[32m71[m[36m:[m- {{DOMxRef("HTMLTableElement.[1;31minsertRow[m()")}}
+[35mfiles/en-us/web/api/htmltableelement/index.md[m[36m:[m[32m80[m[36m:[mThe `HTMLTableElement` interface provides some convenience methods for creating and manipulating tables. Two frequently used methods are {{domxref("HTMLTableElement.[1;31minsertRow[m")}} and {{domxref("HTMLTableRowElement.insertCell")}}.
+[35mfiles/en-us/web/api/htmltableelement/index.md[m[36m:[m[32m97[m[36m:[mconst row = table.[1;31minsertRow[m(-1);
+[35mfiles/en-us/web/api/htmltableelement/insertrow/index.md[m[36m:[m[32m2[m[36m:[mtitle: "HTMLTableElement: [1;31minsertRow[m() method"
+[35mfiles/en-us/web/api/htmltableelement/insertrow/index.md[m[36m:[m[32m3[m[36m:[mshort-title: [1;31minsertRow[m()
+[35mfiles/en-us/web/api/htmltableelement/insertrow/index.md[m[36m:[m[32m4[m[36m:[mslug: Web/API/HTMLTableElement/[1;31minsertRow[m
+[35mfiles/en-us/web/api/htmltableelement/insertrow/index.md[m[36m:[m[32m6[m[36m:[mbrowser-compat: api.HTMLTableElement.[1;31minsertRow[m
+[35mfiles/en-us/web/api/htmltableelement/insertrow/index.md[m[36m:[m[32m11[m[36m:[mThe **`[1;31minsertRow[m()`** method of the {{domxref("HTMLTableElement")}} interface inserts a new row
+[35mfiles/en-us/web/api/htmltableelement/insertrow/index.md[m[36m:[m[32m17[m[36m:[mTo insert the row into a specific section, use {{domxref("HTMLTableSectionElement.[1;31minsertRow[m()")}}
+[35mfiles/en-us/web/api/htmltableelement/insertrow/index.md[m[36m:[m[32m20[m[36m:[m> `[1;31minsertRow[m()` inserts the row directly into the
+[35mfiles/en-us/web/api/htmltableelement/insertrow/index.md[m[36m:[m[32m28[m[36m:[m[1;31minsertRow[m()
+[35mfiles/en-us/web/api/htmltableelement/insertrow/index.md[m[36m:[m[32m29[m[36m:[m[1;31minsertRow[m(index)
+[35mfiles/en-us/web/api/htmltableelement/insertrow/index.md[m[36m:[m[32m54[m[36m:[mThis example uses `[1;31minsertRow[m(-1)` to append a new row to a table.
+[35mfiles/en-us/web/api/htmltableelement/insertrow/index.md[m[36m:[m[32m87[m[36m:[m  let newRow = tableRef.[1;31minsertRow[m(-1);
+[35mfiles/en-us/web/api/htmltableelement/insertrow/index.md[m[36m:[m[32m116[m[36m:[m- {{domxref("HTMLTableSectionElement.[1;31minsertRow[m()")}}
+[35mfiles/en-us/web/api/htmltablerowelement/deletecell/index.md[m[36m:[m[32m129[m[36m:[m- {{domxref("HTMLTableElement.[1;31minsertRow[m()")}}
+[35mfiles/en-us/web/api/htmltablerowelement/insertcell/index.md[m[36m:[m[32m142[m[36m:[m- {{domxref("HTMLTableElement.[1;31minsertRow[m()")}}
+[35mfiles/en-us/web/api/htmltablesectionelement/deleterow/index.md[m[36m:[m[32m96[m[36m:[m  const newRow = bodySection.[1;31minsertRow[m();
+[35mfiles/en-us/web/api/htmltablesectionelement/index.md[m[36m:[m[32m35[m[36m:[m- {{domxref("HTMLTableSectionElement.[1;31minsertRow[m()")}}
+[35mfiles/en-us/web/api/htmltablesectionelement/insertrow/index.md[m[36m:[m[32m2[m[36m:[mtitle: "HTMLTableSectionElement: [1;31minsertRow[m() method"
+[35mfiles/en-us/web/api/htmltablesectionelement/insertrow/index.md[m[36m:[m[32m3[m[36m:[mshort-title: [1;31minsertRow[m()
+[35mfiles/en-us/web/api/htmltablesectionelement/insertrow/index.md[m[36m:[m[32m4[m[36m:[mslug: Web/API/HTMLTableSectionElement/[1;31minsertRow[m
+[35mfiles/en-us/web/api/htmltablesectionelement/insertrow/index.md[m[36m:[m[32m6[m[36m:[mbrowser-compat: api.HTMLTableSectionElement.[1;31minsertRow[m
+[35mfiles/en-us/web/api/htmltablesectionelement/insertrow/index.md[m[36m:[m[32m11[m[36m:[mThe **`[1;31minsertRow[m()`** method of the {{domxref("HTMLTableSectionElement")}} interface inserts a new row
+[35mfiles/en-us/web/api/htmltablesectionelement/insertrow/index.md[m[36m:[m[32m16[m[36m:[m> `[1;31minsertRow[m()` inserts the row directly into the
+[35mfiles/en-us/web/api/htmltablesectionelement/insertrow/index.md[m[36m:[m[32m24[m[36m:[m[1;31minsertRow[m()
+[35mfiles/en-us/web/api/htmltablesectionelement/insertrow/index.md[m[36m:[m[32m25[m[36m:[m[1;31minsertRow[m(index)
+[35mfiles/en-us/web/api/htmltablesectionelement/insertrow/index.md[m[36m:[m[32m104[m[36m:[m  const newRow = bodySection.[1;31minsertRow[m();
+[35mfiles/en-us/web/api/htmltablesectionelement/insertrow/index.md[m[36m:[m[32m139[m[36m:[m- {{domxref("HTMLTableElement.[1;31minsertRow[m()")}}
+[35mfiles/en-us/web/api/htmltablesectionelement/rows/index.md[m[36m:[m[32m77[m[36m:[m  const newRow = bodySection.[1;31minsertRow[m();
+[35mfiles/en-us/web/api/pluginarray/index.md[m[36m:[m[32m47[m[36m:[m  let newRow = table.[1;31minsertRow[m();
+[35mfiles/en-us/web/api/window/settimeout/index.md[m[36m:[m[32m287[m[36m:[m  const logRow = tableBody.[1;31minsertRow[m();
+HTMLTableElement.insertRow()
